@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>twoWeatherApp</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        
+        <div class="card">
+            <div class="lds-spinner"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+            <div id="main">
+                <h1 class="city">Cuidad, pais</h1>
+                <h2 class="temp">Tempe</h2>
+                <h2 class="humidity">Humedad</h2>
+            </div> 
+            <form action="" class="w-form">
+                <div class="form-group">
+                    <input type="text" placeholder="City" id="city" class="form-control">
+                </div>
+                <div class="form-group">
+                    <button class="btn" id="w-btn">Save changes</button>
+                </div>
+            </form>
+        </div>
+        
+    </div>
+    <script src="https://kit.fontawesome.com/0ec49656c0.js" crossorigin="anonymous"></script>
+    <script type="module" src="app/index.js"></script>
+</body>
+</html>
